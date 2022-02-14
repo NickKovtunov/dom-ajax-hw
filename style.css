@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:20px;
+	font-family: Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: #ffc107;
+    cursor: pointer;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.grid {
+    margin-top: 15px;
+    border: 2px dotted #6c757d;
+    width: 47%;
+    float: left;
+    min-height: 200px;
+}
+
+.free {
+    position: relative;
+    margin-top: 15px;
+    height: 500px;
+    border: 2px dotted #6c757d;
+    overflow: hidden;
+    float: right;
+    width: 47%;
+}
+
+.new-element {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex: none;
+    position: absolute;
+    z-index: 10;
+    border: 1px solid black;
+    float: left;
+}
